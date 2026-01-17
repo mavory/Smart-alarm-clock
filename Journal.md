@@ -231,7 +231,7 @@ Everything works very well and so sjem decided to **glue the upper part** to the
 First I had to bend the cables to the **photosensor and buzzer** so that the jumpers wouldn't fall out, and even then it happened a few times, so it took me a while.
 I also had to rewire the buzzer on the **breadboard** a little, but everything else is great! When I had it, **I finished the last things** and closed it (_I just stretched it with tape to test it..._)
 Everything worked, but suddenly the **buzzer didn't work** on the second try, so **I wondered why**, but when **I opened the case**, a wire just fell out, so I said, goooood.
-So when I made the **4th try**, everything worked beautifully and I was happy. So I closed the case with glue and could continue with the **wiring diagram**!!
+So when I made the **4th try**, everything worked beautifully and I was happy. So I closed the case with glue and could continue with the **circuit diagram**!!
 
 ### Cable connection:
 ![20260116_232352](https://blueprint.hackclub.com/user-attachments/blobs/proxy/eyJfcmFpbHMiOnsiZGF0YSI6ODQwMzIsInB1ciI6ImJsb2JfaWQifX0=--ad2dc020539b8903fea5e83f60341babce45b1a7/20260116_232352.jpg)
@@ -240,4 +240,23 @@ So when I made the **4th try**, everything worked beautifully and I was happy. S
 ![20260116_232608](https://blueprint.hackclub.com/user-attachments/blobs/proxy/eyJfcmFpbHMiOnsiZGF0YSI6ODQwMzMsInB1ciI6ImJsb2JfaWQifX0=--c98bf6a66e933c4757320215c66313a7b9d9eea8/20260116_232608.jpg)
   
 
+## 1/17/2026 3:28 PM - Circuit diagram  
+
+_Time spent: 1.5h_  
+
+When I finished the overall wiring and the **3D case**, I started making a circuit diagram in KiCad.
+It took me quite a while because I had been doing it for a long time, but then **I remembered** how to **do some things**.
+I gradually added various devices and connected them to the **ESP32**. The photosensor was probably the most difficult for me because I couldn't find the exact module for it, but after some time I found it. Later I added a **10K resistor** to it and slowly everything was done.
+![image](https://blueprint.hackclub.com/user-attachments/blobs/proxy/eyJfcmFpbHMiOnsiZGF0YSI6ODQ0MDgsInB1ciI6ImJsb2JfaWQifX0=--fb7dc1a7f064ad4560d059df394331ccae1bf3cf/image.png)
+  
+
+## 1/17/2026 3:38 PM - Circuit diagram is finished!  
+
+_Time spent: 0.8h_  
+
+So when I had everything ready, I started connecting things to the **ESP32**.
+At first **I had to look at the code** because I couldn't remember the pins where the **components** were connected, but as I got closer to the end, I started to remember...
+After about **0.8 hours** I had everything finished and I rendered it all and **uploaded it** straight to **GitHub**!
+![Snímek obrazovky 2026-01-17 152935](https://blueprint.hackclub.com/user-attachments/blobs/proxy/eyJfcmFpbHMiOnsiZGF0YSI6ODQ0MjIsInB1ciI6ImJsb2JfaWQifX0=--ffbffc0ae510820d4a9844dc0a7807686647b4d9/Sn%C3%ADmek%20obrazovky%202026-01-17%20152935.png)
+_Here is the link to download the PDF:_ [ESP32](/user-attachments/blobs/proxy/eyJfcmFpbHMiOnsiZGF0YSI6ODQ0MjEsInB1ciI6ImJsb2JfaWQifX0=--f22b4212b44062768d9ba6f794fccc316fd4df73/ESP32.pdf)  
 
