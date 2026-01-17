@@ -60,6 +60,6 @@ Here is a view of the top and bottom of the case:
 
 ## There is the final video of how it works!!
 
-_Here is a youtube video where you can see how it works:_ [Link](https://www.youtube.com/)
+_Here is a youtube video where you can see how it works:_ [Link](https://youtu.be/AV3PfRDRrco)
 
 ![image](https://blueprint.hackclub.com/user-attachments/representations/redirect/eyJfcmFpbHMiOnsiZGF0YSI6ODQwMzMsInB1ciI6ImJsb2JfaWQifX0=--c98bf6a66e933c4757320215c66313a7b9d9eea8/eyJfcmFpbHMiOnsiZGF0YSI6eyJmb3JtYXQiOiJqcGciLCJyZXNpemVfdG9fbGltaXQiOlsyMDAwLDIwMDBdLCJjb252ZXJ0Ijoid2VicCIsInNhdmVyIjp7InF1YWxpdHkiOjgwLCJzdHJpcCI6dHJ1ZX19LCJwdXIiOiJ2YXJpYXRpb24ifX0=--15ca3815f01a5683e19ea0585d2eef9af9e441d7/20260116_232608.jpg)
