@@ -55,7 +55,7 @@ So I decided to solder it with wires. I first prepared the wires for powering th
 
 ## 1/10/2026 11:07 PM - Start of coding  
 
-_Time spent: 0.8h_  
+_Time spent: 1.2h_  
 
 After **successful soldering**, I quickly moved on to writing the code. I had never written any code before and I was wondering **how I would make the speaker work** and everything together.
 At first, I came up with the code when I would not use the speaker yet and later I would put it there. I was more confused about the **functionality of the MicroSD card** module, which always blubbed 💀 - today too... When I uploaded the code, writing to the card did not work for me and I also did not know why, **the website did not work.**
@@ -162,7 +162,7 @@ At first, I started making the bottom part, which has dimensions of **174x64** (
 
 ## 1/16/2026 7:29 PM - Printing and measuring  
 
-_Time spent: 0.4h_  
+_Time spent: 0.6h_  
 
 In the meantime, I started measuring **all the components** that I would place on the top.
 I started with the **OLED display** and gradually continued with the **photosensor**, **button**,....
@@ -259,4 +259,83 @@ At first **I had to look at the code** because I couldn't remember the pins wher
 After about **0.8 hours** I had everything finished and I rendered it all and **uploaded it** straight to **GitHub**!
 ![Snímek obrazovky 2026-01-17 152935](https://blueprint.hackclub.com/user-attachments/blobs/proxy/eyJfcmFpbHMiOnsiZGF0YSI6ODQ0MjIsInB1ciI6ImJsb2JfaWQifX0=--ffbffc0ae510820d4a9844dc0a7807686647b4d9/Sn%C3%ADmek%20obrazovky%202026-01-17%20152935.png)
 _Here is the link to download the PDF:_ [ESP32](/user-attachments/blobs/proxy/eyJfcmFpbHMiOnsiZGF0YSI6ODQ0MjEsInB1ciI6ImJsb2JfaWQifX0=--f22b4212b44062768d9ba6f794fccc316fd4df73/ESP32.pdf)  
+
+## 1/17/2026 4 PM - GitHub editing  
+
+_Time spent: 1.3h_  
+
+When I was done, I started editing the **GitHub repo**. I exported everything one by one and later **uploaded everything** to the aforementioned repo.
+It took me about half an hour in total, because I always have to convert **.STL** to **.STEP** and also always find out where **my schematic** is saved...
+
+Later, I started writing **README.md**, **Journal.md**, **Info.md**... That probably took me the most time, because it was quite difficult and then I had to edit it a f**ew times anyway**. When I had it, I saved everything **and made a video** of how everything works.
+![image](https://blueprint.hackclub.com/user-attachments/blobs/proxy/eyJfcmFpbHMiOnsiZGF0YSI6ODQ0NjEsInB1ciI6ImJsb2JfaWQifX0=--304b4d79115ade44c1d18089c2bfa5c7426795e4/image.png)
+  
+
+## 1/17/2026 5 PM - SMART ALARM CLOCK IS DONE!!  
+
+_Time spent: 1.8h_  
+
+Using ESP32 you can have your own alarm clock that is controllable via the web!
+
+## Why did I do this?
+
+I was always late or needed some encouragement! So I created SAC, which is web-controlled and very compact and minimalist. Now I can adjust my alarm clock via the web on my PC while I'm in the kitchen (for example).
+
+## Features
+
+- Web interface
+- You can edit alarms via the web
+- You see diagnostics on the display
+- Day/night mode
+
+## Scripts
+
+It's the only script you need and it's about 460 lines long! It contains everything from libraries to the website. 
+Just edit the WiFi and password on line 237 and you can upload it straight to the ESP32 and everything should work.
+
+### Home page:
+![image](https://blueprint.hackclub.com/user-attachments/representations/redirect/eyJfcmFpbHMiOnsiZGF0YSI6ODE0ODQsInB1ciI6ImJsb2JfaWQifX0=--8e1259e238cdfaa1b2f501dad1e71752abc713b6/eyJfcmFpbHMiOnsiZGF0YSI6eyJmb3JtYXQiOiJwbmciLCJyZXNpemVfdG9fbGltaXQiOlsyMDAwLDIwMDBdLCJjb252ZXJ0Ijoid2VicCIsInNhdmVyIjp7InF1YWxpdHkiOjgwLCJzdHJpcCI6dHJ1ZX19LCJwdXIiOiJ2YXJpYXRpb24ifX0=--0f85faa91c373105a0f317054e965c1f47e93a37/image.png)
+
+## How it works?
+
+On the website you choose what you need, for example, you create a one-day alarm clock with vibration and buzzer for 21:30. At 21:30 your alarm will start and you can turn it off using the button on the website or via the button directly on the alarm clock.
+Also, if you press the button twice, you will see all current alarms on the display and if you hold the button, you will get to the diagnostics, where you can see all important information!
+
+### Libraries:
+
+```
+- Arduino.h
+- WiFi.h
+- ESPAsyncWebServer.h 
+- AsyncTCP.h
+- Adafruit_NeoPixel.h
+- LittleFS.h
+- SD.h
+- SPI.h
+- Wire.h
+- Adafruit_GFX.h
+- Adafruit_SSD1306.h
+- RtcDS1302.h
+- ThreeWire.h
+- OneButton.h
+- time.h
+```
+
+## 3D models
+
+Here is a view of the top and bottom of the case:
+
+![image](https://blueprint.hackclub.com/user-attachments/representations/redirect/eyJfcmFpbHMiOnsiZGF0YSI6ODM5NDgsInB1ciI6ImJsb2JfaWQifX0=--06ebcd7e911fc4bc47ec1ec3d452ae756a5d462b/eyJfcmFpbHMiOnsiZGF0YSI6eyJmb3JtYXQiOiJwbmciLCJyZXNpemVfdG9fbGltaXQiOlsyMDAwLDIwMDBdLCJjb252ZXJ0Ijoid2VicCIsInNhdmVyIjp7InF1YWxpdHkiOjgwLCJzdHJpcCI6dHJ1ZX19LCJwdXIiOiJ2YXJpYXRpb24ifX0=--0f85faa91c373105a0f317054e965c1f47e93a37/image.png)
+
+![image](https://blueprint.hackclub.com/user-attachments/representations/redirect/eyJfcmFpbHMiOnsiZGF0YSI6ODM5NTAsInB1ciI6ImJsb2JfaWQifX0=--fc1622a893fa68390f869b42fc7bcdb0e2b7ce32/eyJfcmFpbHMiOnsiZGF0YSI6eyJmb3JtYXQiOiJwbmciLCJyZXNpemVfdG9fbGltaXQiOlsyMDAwLDIwMDBdLCJjb252ZXJ0Ijoid2VicCIsInNhdmVyIjp7InF1YWxpdHkiOjgwLCJzdHJpcCI6dHJ1ZX19LCJwdXIiOiJ2YXJpYXRpb24ifX0=--0f85faa91c373105a0f317054e965c1f47e93a37/image.png)
+
+## Wiring Diagram
+
+![image](https://blueprint.hackclub.com/user-attachments/representations/redirect/eyJfcmFpbHMiOnsiZGF0YSI6ODQ0MjIsInB1ciI6ImJsb2JfaWQifX0=--ffbffc0ae510820d4a9844dc0a7807686647b4d9/eyJfcmFpbHMiOnsiZGF0YSI6eyJmb3JtYXQiOiJwbmciLCJyZXNpemVfdG9fbGltaXQiOlsyMDAwLDIwMDBdLCJjb252ZXJ0Ijoid2VicCIsInNhdmVyIjp7InF1YWxpdHkiOjgwLCJzdHJpcCI6dHJ1ZX19LCJwdXIiOiJ2YXJpYXRpb24ifX0=--0f85faa91c373105a0f317054e965c1f47e93a37/Sn%C3%ADmek%20obrazovky%202026-01-17%20152935.png)
+
+## There is the final video of how it works!!
+
+_Here is a youtube video where you can see how it works:_ [Link](https://youtu.be/AV3PfRDRrco)
+
+![image](https://blueprint.hackclub.com/user-attachments/blobs/proxy/eyJfcmFpbHMiOnsiZGF0YSI6ODQ1MzYsInB1ciI6ImJsb2JfaWQifX0=--b78f25edab35afe028372c4afc5532ef5407f756/image.png)  
 
