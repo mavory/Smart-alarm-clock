@@ -48,6 +48,8 @@ Also, if you press the button twice, you will see all current alarms on the disp
 
 ## 3D models
 
+https://www.tinkercad.com/things/f3PBRpHUPhY-clock?sharecode=p_ixkk5DhO9dDXulNEwirXyC8I3PMVLbobYcKOfEwlo
+
 Here is a view of the top and bottom of the case:
 
 ![image](https://blueprint.hackclub.com/user-attachments/representations/redirect/eyJfcmFpbHMiOnsiZGF0YSI6ODM5NDgsInB1ciI6ImJsb2JfaWQifX0=--06ebcd7e911fc4bc47ec1ec3d452ae756a5d462b/eyJfcmFpbHMiOnsiZGF0YSI6eyJmb3JtYXQiOiJwbmciLCJyZXNpemVfdG9fbGltaXQiOlsyMDAwLDIwMDBdLCJjb252ZXJ0Ijoid2VicCIsInNhdmVyIjp7InF1YWxpdHkiOjgwLCJzdHJpcCI6dHJ1ZX19LCJwdXIiOiJ2YXJpYXRpb24ifX0=--0f85faa91c373105a0f317054e965c1f47e93a37/image.png)
